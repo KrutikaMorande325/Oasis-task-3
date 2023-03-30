@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #9dd8ef;
+    display: grid;
+    place-items: center;
+}
+form{
+    background-color: blueviolet;
+    padding: 80px;
+    margin: 100px auto;
+    text-align: center;
+    -moz-box-shadow: 0 8px 6px 4px #778;
+    -webkit-box-shadow:0 8px 6px 4px #778;
+    box-shadow: 0 8px 6px 4px #778;
+    border-radius: 30px;
+}
+#calTemp label {
+    font-size: 50px;
+}
+
+#temp {
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: 130px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#temp_diff {
+    height: 40px; 
+    width: 130px;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+    vertical-align: top;
+    border-radius: 10px;
+}
+ [type = "submit"] {
+    height: 40px;
+    margin: 20px;
+    width: 150px;
+    font-size: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+ }
+#resultbox{
+    font-size: 35px;
+}
